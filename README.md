@@ -184,6 +184,8 @@
 <iframe class='sproutvideo-player' src='https://videos.sproutvideo.com/embed/d391d0b2191ae3c65a/ac1e99c60c5d52e6' width='640' height='288' frameborder='0' allowfullscreen referrerpolicy='no-referrer-when-downgrade' title='Video Player'></iframe>
              <h1 class="video-title"> part 4</h1>
 <iframe class='sproutvideo-player' src='https://videos.sproutvideo.com/embed/0691d0b2191ae1c58f/2846cf680a45216d' width='640' height='384' frameborder='0' allowfullscreen referrerpolicy='no-referrer-when-downgrade' title='Video Player'></iframe>
+                         <h1 class="video-title"> الاجابات</h1>
+<iframe src="https://drive.google.com/file/d/11AE9jJRaz5TKgkISEzff8udfM1Mwwevw/preview" width="640" height="480" allow="autoplay"></iframe>
             </div>
               <div class="video" id="video5" style="display: none;">
             <h1 class="video-title"> تدريبات الدرس الثاني</h1>
@@ -191,6 +193,8 @@
 <iframe class='sproutvideo-player' src='https://videos.sproutvideo.com/embed/7091d0b2191ae1c3f9/2885212594881694' width='640' height='384' frameborder='0' allowfullscreen referrerpolicy='no-referrer-when-downgrade' title='Video Player'></iframe> 
            <h1 class="video-title"> part 2</h1>
 <iframe class='sproutvideo-player' src='https://videos.sproutvideo.com/embed/4d91d0b2191ae7c4c4/1d24537e27015c4c' width='640' height='384' frameborder='0' allowfullscreen referrerpolicy='no-referrer-when-downgrade' title='Video Player'></iframe>
+                         <h1 class="video-title"> الاجابات</h1>
+<iframe src="https://drive.google.com/file/d/1Z8dhjiwxR78kJFRiQCdAvkLyxmZ4nqfu/preview" width="640" height="480" allow="autoplay"></iframe>
             </div>
             
               <div class="video" id="video6" style="display: none;">
@@ -201,6 +205,8 @@
 <iframe class='sproutvideo-player' src='https://videos.sproutvideo.com/embed/d391d0b21812eec25a/279a2a5ac335745a' width='640' height='384' frameborder='0' allowfullscreen referrerpolicy='no-referrer-when-downgrade' title='Video Player'></iframe>
                 <h1 class="video-title"> part 3</h1>
 <iframe class='sproutvideo-player' src='https://videos.sproutvideo.com/embed/7991d0b21812edc3f0/53a9c1e76e6fb700' width='640' height='384' frameborder='0' allowfullscreen referrerpolicy='no-referrer-when-downgrade' title='Video Player'></iframe>
+                         <h1 class="video-title"> الاجابات</h1>
+<iframe src="https://drive.google.com/file/d/1P0frdZCKatkirMA69FiP4qQ4veVQii9d/preview" width="640" height="480" allow="autoplay"></iframe>
             </div>
             
               <div class="video" id="video7" style="display: none;">
@@ -211,6 +217,9 @@
 <iframe class='sproutvideo-player' src='https://videos.sproutvideo.com/embed/a791d0b21813ecc52e/bea75bc92d71f1f3' width='640' height='384' frameborder='0' allowfullscreen referrerpolicy='no-referrer-when-downgrade' title='Video Player'></iframe>
             <h1 class="video-title"> part 3</h1>
 <iframe class='sproutvideo-player' src='https://videos.sproutvideo.com/embed/1191d0b21813e3c498/f997d0ec45eed955' width='640' height='384' frameborder='0' allowfullscreen referrerpolicy='no-referrer-when-downgrade' title='Video Player'></iframe>
+                         <h1 class="video-title"> الاجابات</h1>
+
+<iframe src="https://drive.google.com/file/d/1JWxxFrbzgBdtzThPKd5ZRukoXMMrxn8w/preview" width="640" height="480" allow="autoplay"></iframe>
             </div>
             
         </section>
