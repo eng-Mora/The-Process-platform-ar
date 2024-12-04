@@ -160,18 +160,30 @@
             
             <div class="video" id="video1" style="display: none;">
                 <h1 class="video-title">شرح الفصل الثاني (Part 1)</h1>
-     <iframe class='sproutvideo-player' src='https://videos.sproutvideo.com/embed/7991d0b21919e1c5f0/a52604d9e1dd3628' width='640' height='384' frameborder='0' allowfullscreen referrerpolicy='no-referrer-when-downgrade' title='Video Player'></iframe>
+<iframe src="https://drive.google.com/file/d/1JsbhZ8UWhqh9p2RlecTBrCa5L_8vgJCR/preview" 
+        width="640" 
+        height="480" 
+        allow="autoplay" 
+        allowfullscreen></iframe>
                  </div>
 
             <div class="video" id="video2" style="display: none;">
             <h1 class="video-title">شرح الفصل الثاني (Part 2)</h1>
-               <iframe class='sproutvideo-player' src='https://videos.sproutvideo.com/embed/a791d0b21919e6c42e/92d22dcdce865c97' width='640' height='384' frameborder='0' allowfullscreen referrerpolicy='no-referrer-when-downgrade' title='Video Player'></iframe>
+<iframe src="https://drive.google.com/file/d/1fOeP-_8VgSYQkiR5BeMhL0Xt422Wv7Vc/preview" 
+        width="640" 
+        height="480" 
+        allow="autoplay" 
+        allowfullscreen></iframe>
             </div>
             
               <div class="video" id="video3" style="display: none;">
             <h1 class="video-title"> شرح الفصل الثاني (Part 3)</h1>
 
-              <iframe class='sproutvideo-player' src='https://videos.sproutvideo.com/embed/a791d0b21919e5c72e/41c571ea176a3d66' width='640' height='384' frameborder='0' allowfullscreen referrerpolicy='no-referrer-when-downgrade' title='Video Player'></iframe>
+<iframe src="https://drive.google.com/file/d/17dQEtszqYpmPmpU3GKYfsiyjGmwCHKhq/preview" 
+        width="640" 
+        height="480" 
+        allow="autoplay" 
+        allowfullscreen></iframe>
             </div>
          
               <div class="video" id="video4" style="display: none;">
@@ -189,9 +201,17 @@
         allow="autoplay" 
         allowfullscreen></iframe>
              <h1 class="video-title"> part 3</h1>
-<iframe class='sproutvideo-player' src='https://videos.sproutvideo.com/embed/d391d0b2191ae3c65a/ac1e99c60c5d52e6' width='640' height='288' frameborder='0' allowfullscreen referrerpolicy='no-referrer-when-downgrade' title='Video Player'></iframe>
+<iframe src="https://drive.google.com/file/d/1b4NmhBy8VpzKk4wl0ktq9CvVDU5RVhgJ/preview" 
+        width="640" 
+        height="480" 
+        allow="autoplay" 
+        allowfullscreen></iframe>
              <h1 class="video-title"> part 4</h1>
-<iframe class='sproutvideo-player' src='https://videos.sproutvideo.com/embed/0691d0b2191ae1c58f/2846cf680a45216d' width='640' height='384' frameborder='0' allowfullscreen referrerpolicy='no-referrer-when-downgrade' title='Video Player'></iframe>
+<iframe src="https://drive.google.com/file/d/1oYsLZZQhUABeYI9aH2Ac1_eewUfYOC1D/preview" 
+        width="640" 
+        height="480" 
+        allow="autoplay" 
+        allowfullscreen></iframe>
 
             </div>
               <div class="video" id="video5" style="display: none;">
@@ -237,11 +257,23 @@
               <div class="video" id="video7" style="display: none;">
             <h1 class="video-title"> تدريبات الدرس الرابع</h1>
             <h1 class="video-title"> part 1</h1>
-<iframe class='sproutvideo-player' src='https://videos.sproutvideo.com/embed/ea91d0b21813e9c163/ba0bdae46ff3a58d' width='640' height='384' frameborder='0' allowfullscreen referrerpolicy='no-referrer-when-downgrade' title='Video Player'></iframe>
+<iframe src="https://drive.google.com/file/d/11MiD_5E587CPRDIRi4j6nMth61_8YbiW/preview" 
+        width="640" 
+        height="480" 
+        allow="autoplay" 
+        allowfullscreen></iframe>
             <h1 class="video-title"> part 2</h1>
-<iframe class='sproutvideo-player' src='https://videos.sproutvideo.com/embed/a791d0b21813ecc52e/bea75bc92d71f1f3' width='640' height='384' frameborder='0' allowfullscreen referrerpolicy='no-referrer-when-downgrade' title='Video Player'></iframe>
+<iframe src="https://drive.google.com/file/d/1hSEX0DJvQTrggrkmtIm0NxyoEFvd_RN4/preview" 
+        width="640" 
+        height="480" 
+        allow="autoplay" 
+        allowfullscreen></iframe>
             <h1 class="video-title"> part 3</h1>
-<iframe class='sproutvideo-player' src='https://videos.sproutvideo.com/embed/1191d0b21813e3c498/f997d0ec45eed955' width='640' height='384' frameborder='0' allowfullscreen referrerpolicy='no-referrer-when-downgrade' title='Video Player'></iframe>
+<iframe src="https://drive.google.com/file/d/17czArTr3Mms54nFtW00TIeA8PHAS-vpc/preview" 
+        width="640" 
+        height="480" 
+        allow="autoplay" 
+        allowfullscreen></iframe>
 
             </div>
             
