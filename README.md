@@ -189,9 +189,17 @@
               <div class="video" id="video5" style="display: none;">
             <h1 class="video-title"> تدريبات الدرس الثاني</h1>
             <h1 class="video-title"> part 1</h1>
-<iframe class='sproutvideo-player' src='https://videos.sproutvideo.com/embed/7091d0b2191ae1c3f9/2885212594881694' width='640' height='384' frameborder='0' allowfullscreen referrerpolicy='no-referrer-when-downgrade' title='Video Player'></iframe> 
+<iframe src="https://drive.google.com/file/d/1n8VJZWh6MZLM5EJZoydah6GQzsvpx_pN/preview" 
+        width="640" 
+        height="480" 
+        allow="autoplay" 
+        allowfullscreen></iframe>
            <h1 class="video-title"> part 2</h1>
-<iframe class='sproutvideo-player' src='https://videos.sproutvideo.com/embed/4d91d0b2191ae7c4c4/1d24537e27015c4c' width='640' height='384' frameborder='0' allowfullscreen referrerpolicy='no-referrer-when-downgrade' title='Video Player'></iframe>
+<iframe src="https://drive.google.com/file/d/1XcTlpD_pOpFchYzye_OzLf54RoxlfVWl/preview" 
+        width="640" 
+        height="480" 
+        allow="autoplay" 
+        allowfullscreen></iframe>
 
             </div>
             
