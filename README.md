@@ -146,137 +146,120 @@
 
         <section id="videos" class="video-container">
 <select id="videoSelector" style="padding: 10px; font-size: 16px; background-color: #3A5795; color: white; border: none;">
-            <option value="video1">.....option.....</option>
-                <option value="video1">شرح الفصل الثاني (Part 1) </option>
-                <option value="video2">شرح الفصل الثاني (Part 2)</option>
-                <option value="video3">شرح الفصل الثاني (Part 3)</option>
-                <option value="video4">تدريبات الدرس الاول </option>
-                <option value="video5">تدريبات الدرس الثاني </option>
-                <option value="video6">تدريبات الدرس الثالث </option>
-                <option value="video7">تدريبات الدرس الرابع </option>
+                <option value="video0">.....option.....</option>
+                <option value="video1">شرح الفصل الثالث (Part 1) </option>
+                <option value="video2">شرح الفصل الثالث (Part 2)</option>
+                <option value="video3">تدريبات الدرس الاول </option>
+                <option value="video4">تدريبات الدرس الثاني </option>
+                <option value="video5">تدريبات الدرس الثالث </option>
+                <option value="video6">تدريبات الدرس الرابع </option>
             </select>
             
             
             
             <div class="video" id="video1" style="display: none;">
-                <h1 class="video-title">شرح الفصل الثاني (Part 1)</h1>
-<iframe src="https://drive.google.com/file/d/1JsbhZ8UWhqh9p2RlecTBrCa5L_8vgJCR/preview" 
-        width="640" 
-        height="480" 
-        allow="autoplay" 
-        allowfullscreen></iframe>
-                 </div>
-
+                <h1 class="video-title">شرح الفصل الثالث (Part 1)</h1>
+  <iframe 
+    src="https://drive.google.com/file/d/13hf2rREv3bIV-aiuAj94sZcLDxj8qKu0/preview" 
+    width="640" 
+    height="480" 
+    allow="autoplay" 
+    allowfullscreen>
+  </iframe>
+</div>
+</div>
             <div class="video" id="video2" style="display: none;">
-            <h1 class="video-title">شرح الفصل الثاني (Part 2)</h1>
-<iframe src="https://drive.google.com/file/d/1fOeP-_8VgSYQkiR5BeMhL0Xt422Wv7Vc/preview" 
-        width="640" 
-        height="480" 
-        allow="autoplay" 
-        allowfullscreen></iframe>
-            </div>
-            
-              <div class="video" id="video3" style="display: none;">
-            <h1 class="video-title"> شرح الفصل الثاني (Part 3)</h1>
+                <h1 class="video-title">شرح الفصل الثالث (Part 2)</h1>
+  <iframe 
+    src="https://drive.google.com/file/d/1FnyiymnXUG2yIy1f_6NVodCAfcpQ0059/preview" 
+    width="640" 
+    height="480" 
+    allow="autoplay" 
+    allowfullscreen>
+  </iframe>
+</div>
+            <div class="video" id="video3" style="display: none;">
+                <h1 class="video-title">تدريبات الدرس الاول  </h1>
+                 <h1 class="video-title"> (part1) </h1>
 
-<iframe src="https://drive.google.com/file/d/17dQEtszqYpmPmpU3GKYfsiyjGmwCHKhq/preview" 
-        width="640" 
-        height="480" 
-        allow="autoplay" 
-        allowfullscreen></iframe>
-            </div>
-         
-              <div class="video" id="video4" style="display: none;">
-            <h1 class="video-title">تدريبات الدرس الاول </h1>
-            <h1 class="video-title"> part 1</h1>
-<iframe src="https://drive.google.com/file/d/1Xafno2FXrklMu3N5udbsb_FAPQwQI0Na/preview" 
-        width="640" 
-        height="480" 
-        allow="autoplay" 
-        allowfullscreen></iframe>
-             <h1 class="video-title"> part 2</h1>
-<iframe src="https://drive.google.com/file/d/1Uqmcfk2Ujoq2X_u8-6K3MTIA7B9NQ-RY/preview" 
-        width="640" 
-        height="480" 
-        allow="autoplay" 
-        allowfullscreen></iframe>
-             <h1 class="video-title"> part 3</h1>
-<iframe src="https://drive.google.com/file/d/1b4NmhBy8VpzKk4wl0ktq9CvVDU5RVhgJ/preview" 
-        width="640" 
-        height="480" 
-        allow="autoplay" 
-        allowfullscreen></iframe>
-             <h1 class="video-title"> part 4</h1>
-<iframe src="https://drive.google.com/file/d/1oYsLZZQhUABeYI9aH2Ac1_eewUfYOC1D/preview" 
-        width="640" 
-        height="480" 
-        allow="autoplay" 
-        allowfullscreen></iframe>
+<iframe 
+    src="https://drive.google.com/file/d/1CqnOF1m6Ce_pfI13c8vJc5ViLy6bWHeW/preview" 
+    width="640" 
+    height="480" 
+    allow="autoplay" 
+    allowfullscreen>
+</iframe>
+                 <h1 class="video-title"> (part2) </h1>
 
-            </div>
-              <div class="video" id="video5" style="display: none;">
-            <h1 class="video-title"> تدريبات الدرس الثاني</h1>
-            <h1 class="video-title"> part 1</h1>
-<iframe src="https://drive.google.com/file/d/1n8VJZWh6MZLM5EJZoydah6GQzsvpx_pN/preview" 
-        width="640" 
-        height="480" 
-        allow="autoplay" 
-        allowfullscreen></iframe>
-           <h1 class="video-title"> part 2</h1>
-<iframe src="https://drive.google.com/file/d/1XcTlpD_pOpFchYzye_OzLf54RoxlfVWl/preview" 
-        width="640" 
-        height="480" 
-        allow="autoplay" 
-        allowfullscreen></iframe>
+<iframe 
+    src="https://drive.google.com/file/d/1OJ2uBI8RfdQeWVQBK1QXjvfvDli18_Yo/preview" 
+    width="640" 
+    height="480" 
+    allow="autoplay" 
+    allowfullscreen>
+</iframe>
+                 <h1 class="video-title"> (part3) </h1>
 
-            </div>
-            
-              <div class="video" id="video6" style="display: none;">
-            <h1 class="video-title">تدريبات الدرس الثالث </h1>
-                <h1 class="video-title"> part 1</h1>
-<iframe src="https://drive.google.com/file/d/1FSiqPd1aI2N6ObTw1IqskrkkT5A3wDeV/preview" 
-        width="640" 
-        height="480" 
-        allow="autoplay" 
-        allowfullscreen></iframe>
-                <h1 class="video-title"> part 2</h1>
-<iframe src="https://drive.google.com/file/d/18uhR-4gz7w9Npu9Ronztyu-IMukHurld/preview" 
-        width="640" 
-        height="480" 
-        allow="autoplay" 
-        allowfullscreen></iframe>
-                <h1 class="video-title"> part 3</h1>
-<iframe src="https://drive.google.com/file/d/1B0R8m9BavCxYEtXOz1qMHiQMEHqCebAA/preview" 
-        width="640" 
-        height="480" 
-        allow="autoplay" 
-        allowfullscreen></iframe>
+<iframe 
+    src="https://drive.google.com/file/d/15RTu4Y3nbUEA18OgfKlMZC6F4VPS3USI/preview" 
+    width="640" 
+    height="480" 
+    allow="autoplay" 
+    allowfullscreen>
+</iframe>
+</div>
+<div class="video" id="video4" style="display: none;">
+                <h1 class="video-title">تدريبات الدرس الثاني  </h1>
+                 <h1 class="video-title"> (part1) </h1>
 
-            </div>
-            
-              <div class="video" id="video7" style="display: none;">
-            <h1 class="video-title"> تدريبات الدرس الرابع</h1>
-            <h1 class="video-title"> part 1</h1>
-<iframe src="https://drive.google.com/file/d/11MiD_5E587CPRDIRi4j6nMth61_8YbiW/preview" 
-        width="640" 
-        height="480" 
-        allow="autoplay" 
-        allowfullscreen></iframe>
-            <h1 class="video-title"> part 2</h1>
-<iframe src="https://drive.google.com/file/d/1hSEX0DJvQTrggrkmtIm0NxyoEFvd_RN4/preview" 
-        width="640" 
-        height="480" 
-        allow="autoplay" 
-        allowfullscreen></iframe>
-            <h1 class="video-title"> part 3</h1>
-<iframe src="https://drive.google.com/file/d/17czArTr3Mms54nFtW00TIeA8PHAS-vpc/preview" 
-        width="640" 
-        height="480" 
-        allow="autoplay" 
-        allowfullscreen></iframe>
+<iframe 
+    src="https://drive.google.com/file/d/1W_7GGE6DBv-IKeoYckUhSDyHz93zO41Y/preview" 
+    width="640" 
+    height="480" 
+    allow="autoplay" 
+    allowfullscreen>
+</iframe>
+                 <h1 class="video-title"> (part2) </h1>
 
-            </div>
-            
+<iframe 
+    src="https://drive.google.com/file/d/1q5NttcIKMYaK-YTClB6Jv8jcVHWJNLB_/preview" 
+    width="640" 
+    height="480" 
+    allow="autoplay" 
+    allowfullscreen>
+</iframe>
+</div>
+<div class="video" id="video5" style="display: none;">
+                <h1 class="video-title">تدريبات الدرس الثاث  </h1>
+                 <h1 class="video-title"> (part1) </h1>
+<iframe 
+    src="https://drive.google.com/file/d/1otMVRc-NX9dZAiod0wag4-FsYMIM_IkV/preview" 
+    width="640" 
+    height="480" 
+    allow="autoplay" 
+    allowfullscreen>
+</iframe>
+                 <h1 class="video-title"> (part2) </h1>
+
+<iframe 
+    src="https://drive.google.com/file/d/1DiGwZVOBSwrcKmLdpIO8pOkKstMTmQpV/preview" 
+    width="640" 
+    height="480" 
+    allow="autoplay" 
+    allowfullscreen>
+</iframe>
+</div>
+<div class="video" id="video6" style="display: none;">
+                <h1 class="video-title">تدريبات الدرس الرابع  </h1>
+<iframe 
+    src="https://drive.google.com/file/d/19D6HIpfepV8N2lfD5_we8NjCjYy-Q6Wd/preview" 
+    width="640" 
+    height="480" 
+    allow="autoplay" 
+    allowfullscreen>
+</iframe>
+</div>
+
         </section>
         
         <section id="contact">
@@ -335,8 +318,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // List of valid usernames
         const validUsernames = [
-            '45454', '0', '18234', '19543', '52614', '51367', '74659', '76431', '63824', '72904', 
-        '52918', '84957', '71945', '83629', '38241', '47285', '29067', '94185', '90576', '35926', '83415', '47623', '63172', '81023', '67892', '85297', '24785', '74381', '90283', '19473'
+            '45454', '0', '13227', '66100', '51089', '42877',
+'92584', '81807', '29699', '96915',
+'83933', '15134', '85643', '99949',
+'20995', '39094', '41661', '49757',
+'52293', '65639', '16495', '17290',
+'15417', '84597', '16833', '34244',
+'16228', '57031', '59657', '31693'
+
         ];
 
         // Validate username
