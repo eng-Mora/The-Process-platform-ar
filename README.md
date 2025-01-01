@@ -167,7 +167,6 @@
     allowfullscreen>
   </iframe>
 </div>
-</div>
             <div class="video" id="video2" style="display: none;">
                 <h1 class="video-title">شرح الفصل الثالث (Part 2)</h1>
   <iframe 
