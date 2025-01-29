@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Educational Website</title>
     <style>
+        /* CSS من الأكواد الثلاثة */
         body {
             font-family: Arial, sans-serif;
             font-weight: bold;
@@ -94,7 +95,7 @@
         button {
             width: 100%;
             padding: 0.75rem;
-            background-color: #007bff; /* Change this to your preferred color */
+            background-color: #007bff;
             color: #fff;
             border: none;
             border-radius: 6px;
@@ -103,7 +104,7 @@
             font-weight: bold;
         }
         button:hover {
-            background-color: #0056b3; /* Change this for the hover effect */
+            background-color: #0056b3;
         }
         .error {
             color: red;
@@ -119,14 +120,14 @@
         }
         .videos-button {
             color: #6D1865;
-            background-color: #2c3e50; /* Dark color for the button */
+            background-color: #2c3e50;
             padding: 5px 15px;
             border-radius: 5px;
             text-decoration: none;
             transition: background-color 0.3s ease;
         }
         .videos-button:hover {
-            background-color: #1a252f; /* Slightly darker on hover */
+            background-color: #1a252f;
         }
     </style>
 </head>
@@ -145,19 +146,202 @@
         </section>
 
         <section id="videos" class="video-container">
-<select id="videoSelector" style="padding: 10px; font-size: 16px; background-color: #3A5795; color: white; border: none;">
-                <option value="video0">.....option.....</option>
-                <option value="video1">شرح الفصل الثالث (Part 1) </option>
-                <option value="video2">شرح الفصل الثالث (Part 2)</option>
-                <option value="video3">تدريبات الدرس الاول </option>
-                <option value="video4">تدريبات الدرس الثاني </option>
-                <option value="video5">تدريبات الدرس الثالث </option>
-                <option value="video6">تدريبات الدرس الرابع </option>
-            </select>
+            <!-- سيتم تعبئة هذا القسم بناءً على الكود المدخل -->
+        </section>
+        
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or need further information, feel free to contact us at <a href="mailto:info@educationwebsite.com">mamrro8529@gmail.com</a>.</p>
+            <div class="social-icons">
+                <a href="https://wa.me/message/5LRM2DVHPZQFM1" target="_blank">
+                    <img src="https://img.icons8.com/fluent/48/000000/whatsapp.png" alt="WhatsApp" />
+                </a>
+                <a href="https://www.facebook.com/mamro8529?mibextid=ZbWKwL" target="_blank">
+                    <img src="https://img.icons8.com/fluent/48/000000/facebook-new.png" alt="Facebook" />
+                </a>
+                <a href="http://t.me/Mora_mo1" target="_blank">
+                    <img src="https://img.icons8.com/fluent/48/000000/telegram-app.png" alt="Telegram" />
+                </a>
+                <p>Developed by Eng: Amr Mohamed</p>
+            </div>
+        </section>
+    </main>
+
+    <div class="login-container" id="loginContainer">
+        <img src="https://i.ibb.co/nmgZDmT/Whats-App-Image-2024-09-04-at-15-05-46-removebg-preview.png" alt="Login Image" style="width: 60%; max-width: 300px; margin-bottom: 20px;">
+        <h1>Login to The Process platform</h1>
+        <form id="loginForm">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
+            <button type="submit">Login</button>
+            <div id="errorMessage" class="error"></div>
+        </form>
+        <p>Developed by Eng: Amr Mohamed</p>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const loginContainer = document.getElementById('loginContainer');
+            const mainContent = document.getElementById('main');
+            const videoContainer = document.getElementById('videos');
+
+            function showLogin() {
+                loginContainer.style.display = 'block';
+                mainContent.style.display = 'none';
+            }
+
+            function showMainContent() {
+                loginContainer.style.display = 'none';
+                mainContent.style.display = 'block';
+            }
+
+            function loadVideoContent(code) {
+                let videoHTML = '';
+
+                if (code === 'CODE1') {
+                    videoHTML = `
+                        <select id="videoSelector" style="padding: 10px; font-size: 16px; background-color: #3A5795; color: white; border: none;">
+                            <option value="video0">.....option.....</option>
+                            <option value="video1">شرح الفصل الثاني (Part 1)</option>
+                            <option value="video2">شرح الفصل الثاني (Part 2)</option>
+                            <option value="video3">شرح الفصل الثاني (Part 3)</option>
+                            <option value="video4">تدريبات الدرس الأول</option>
+                            <option value="video5">تدريبات الدرس الثاني</option>
+                            <option value="video6">تدريبات الدرس الثالث</option>
+                            <option value="video7">تدريبات الدرس الرابع</option>
+                        </select>
+                        <div class="video" id="video1" style="display: none;">
+                <h1 class="video-title">شرح الفصل الثاني (Part 1)</h1>
+<iframe src="https://drive.google.com/file/d/1JsbhZ8UWhqh9p2RlecTBrCa5L_8vgJCR/preview" 
+        width="640" 
+        height="480" 
+        allow="autoplay" 
+        allowfullscreen></iframe>
+                 </div>
+
+            <div class="video" id="video2" style="display: none;">
+            <h1 class="video-title">شرح الفصل الثاني (Part 2)</h1>
+<iframe src="https://drive.google.com/file/d/1fOeP-_8VgSYQkiR5BeMhL0Xt422Wv7Vc/preview" 
+        width="640" 
+        height="480" 
+        allow="autoplay" 
+        allowfullscreen></iframe>
+            </div>
             
+              <div class="video" id="video3" style="display: none;">
+            <h1 class="video-title"> شرح الفصل الثاني (Part 3)</h1>
+
+<iframe src="https://drive.google.com/file/d/17dQEtszqYpmPmpU3GKYfsiyjGmwCHKhq/preview" 
+        width="640" 
+        height="480" 
+        allow="autoplay" 
+        allowfullscreen></iframe>
+            </div>
+         
+              <div class="video" id="video4" style="display: none;">
+            <h1 class="video-title">تدريبات الدرس الاول </h1>
+            <h1 class="video-title"> part 1</h1>
+<iframe src="https://drive.google.com/file/d/1Xafno2FXrklMu3N5udbsb_FAPQwQI0Na/preview" 
+        width="640" 
+        height="480" 
+        allow="autoplay" 
+        allowfullscreen></iframe>
+             <h1 class="video-title"> part 2</h1>
+<iframe src="https://drive.google.com/file/d/1Uqmcfk2Ujoq2X_u8-6K3MTIA7B9NQ-RY/preview" 
+        width="640" 
+        height="480" 
+        allow="autoplay" 
+        allowfullscreen></iframe>
+             <h1 class="video-title"> part 3</h1>
+<iframe src="https://drive.google.com/file/d/1b4NmhBy8VpzKk4wl0ktq9CvVDU5RVhgJ/preview" 
+        width="640" 
+        height="480" 
+        allow="autoplay" 
+        allowfullscreen></iframe>
+             <h1 class="video-title"> part 4</h1>
+<iframe src="https://drive.google.com/file/d/1oYsLZZQhUABeYI9aH2Ac1_eewUfYOC1D/preview" 
+        width="640" 
+        height="480" 
+        allow="autoplay" 
+        allowfullscreen></iframe>
+
+            </div>
+              <div class="video" id="video5" style="display: none;">
+            <h1 class="video-title"> تدريبات الدرس الثاني</h1>
+            <h1 class="video-title"> part 1</h1>
+<iframe src="https://drive.google.com/file/d/1n8VJZWh6MZLM5EJZoydah6GQzsvpx_pN/preview" 
+        width="640" 
+        height="480" 
+        allow="autoplay" 
+        allowfullscreen></iframe>
+           <h1 class="video-title"> part 2</h1>
+<iframe src="https://drive.google.com/file/d/1XcTlpD_pOpFchYzye_OzLf54RoxlfVWl/preview" 
+        width="640" 
+        height="480" 
+        allow="autoplay" 
+        allowfullscreen></iframe>
+
+            </div>
             
+              <div class="video" id="video6" style="display: none;">
+            <h1 class="video-title">تدريبات الدرس الثالث </h1>
+                <h1 class="video-title"> part 1</h1>
+<iframe src="https://drive.google.com/file/d/1FSiqPd1aI2N6ObTw1IqskrkkT5A3wDeV/preview" 
+        width="640" 
+        height="480" 
+        allow="autoplay" 
+        allowfullscreen></iframe>
+                <h1 class="video-title"> part 2</h1>
+<iframe src="https://drive.google.com/file/d/18uhR-4gz7w9Npu9Ronztyu-IMukHurld/preview" 
+        width="640" 
+        height="480" 
+        allow="autoplay" 
+        allowfullscreen></iframe>
+                <h1 class="video-title"> part 3</h1>
+<iframe src="https://drive.google.com/file/d/1B0R8m9BavCxYEtXOz1qMHiQMEHqCebAA/preview" 
+        width="640" 
+        height="480" 
+        allow="autoplay" 
+        allowfullscreen></iframe>
+
+            </div>
             
-            <div class="video" id="video1" style="display: none;">
+              <div class="video" id="video7" style="display: none;">
+            <h1 class="video-title"> تدريبات الدرس الرابع</h1>
+            <h1 class="video-title"> part 1</h1>
+<iframe src="https://drive.google.com/file/d/11MiD_5E587CPRDIRi4j6nMth61_8YbiW/preview" 
+        width="640" 
+        height="480" 
+        allow="autoplay" 
+        allowfullscreen></iframe>
+            <h1 class="video-title"> part 2</h1>
+<iframe src="https://drive.google.com/file/d/1hSEX0DJvQTrggrkmtIm0NxyoEFvd_RN4/preview" 
+        width="640" 
+        height="480" 
+        allow="autoplay" 
+        allowfullscreen></iframe>
+            <h1 class="video-title"> part 3</h1>
+<iframe src="https://drive.google.com/file/d/17czArTr3Mms54nFtW00TIeA8PHAS-vpc/preview" 
+        width="640" 
+        height="480" 
+        allow="autoplay" 
+        allowfullscreen></iframe>
+
+            </div>
+            
+                    `;
+                } else if (code === 'CODE2') {
+                    videoHTML = `
+                        <select id="videoSelector" style="padding: 10px; font-size: 16px; background-color: #3A5795; color: white; border: none;">                
+                            <option value="video0">.....option.....</option>
+                            <option value="video1">شرح الفصل الثالث (Part 1)</option>
+                            <option value="video2">شرح الفصل الثالث (Part 2)</option>
+                            <option value="video3">تدريبات الدرس الأول</option>
+                            <option value="video4">تدريبات الدرس الثاني</option>
+                            <option value="video5">تدريبات الدرس الثالث</option>
+                            <option value="video6">تدريبات الدرس الرابع</option>
+                        </select>
+                        <div class="video" id="video1" style="display: none;">
                 <h1 class="video-title">شرح الفصل الثالث (Part 1)</h1>
   <iframe 
     src="https://drive.google.com/file/d/13hf2rREv3bIV-aiuAj94sZcLDxj8qKu0/preview" 
@@ -259,102 +443,225 @@
 </iframe>
 </div>
 
-        </section>
-        
-        <section id="contact">
-            <h2>Contact Us</h2>
-            <p>If you have any questions or need further information, feel free to contact us at <a href="mailto:info@educationwebsite.com">mamrro8529@gmail.com</a>.</p>
-            <div class="social-icons">
-                <a href="https://wa.me/message/5LRM2DVHPZQFM1" target="_blank">
-                    <img src="https://img.icons8.com/fluent/48/000000/whatsapp.png" alt="WhatsApp" />
-                </a>
-                <a href="https://www.facebook.com/mamro8529?mibextid=ZbWKwL" target="_blank">
-                    <img src="https://img.icons8.com/fluent/48/000000/facebook-new.png" alt="Facebook" />
-                </a>
-                <a href="http://t.me/Mora_mo1" target="_blank">
-                    <img src="https://img.icons8.com/fluent/48/000000/telegram-app.png" alt="Telegram" />
-                </a>
-                <p>Developed by Eng: Amr Mohamed</p>
-            </div>
-        </section>
-    </main>
+                    `;
+                } else if (code === 'CODE3') {
+                    videoHTML = `
+                        <select id="videoSelector" style="padding: 10px; font-size: 16px; background-color: #3A5795; color: white; border: none;">
+                            <option value="video0">.....option.....</option>
+                            <option value="video1">شرح الفصل الأول</option>
+                            <option value="video2">شرح الفصل الرابع</option>
+                            <option value="video3">تدريبات الفصل الأول</option>
+                            <option value="video4">تدريبات الفصل الثاني</option>
+                            <option value="video5">تدريبات الفصل الثالث</option>
+                            <option value="video6">تدريبات الفصل الرابع</option>
+                        </select>
+                                    
+            
+            
+            <div class="video" id="video1" style="display: none;">
+                <h1 class="video-title">شرح الفصل الاول</h1>
+                 <h1 class="video-title">part (1)</h1>
 
-    <div class="login-container" id="loginContainer">
-        <img src="https://i.ibb.co/nmgZDmT/Whats-App-Image-2024-09-04-at-15-05-46-removebg-preview.png" alt="Login Image" style="width: 60%; max-width: 300px; margin-bottom: 20px;">
-        <h1>Login to The Process platform</h1>
-        <form id="loginForm">
-            <label for="username">Username</label>
-            <input type="text" id="username" name="username" required>
-            <button type="submit">Login</button>
-            <div id="errorMessage" class="error"></div>
-        </form>
-        <p>Developed by Eng: Amr Mohamed</p>
+  <iframe 
+    src="https://drive.google.com/file/d/16UzX2Nfb4HGPDUWFTiG_p__RTfMTuXQR/preview" 
+    width="640" 
+    height="480" 
+    allow="autoplay" 
+    allowfullscreen>
+</iframe>
+                 <h1 class="video-title">part (2)</h1>
+
+<iframe 
+    src="https://drive.google.com/file/d/1rYDFBKZPf4la00IzGtWR4f9Nu7sdqVRD/preview" 
+    width="640" 
+    height="480" 
+    allow="autoplay" 
+    allowfullscreen>
+</iframe>
+                 <h1 class="video-title">part (3)</h1>
+
+<iframe 
+    src="https://drive.google.com/file/d/1xyBmw7CqQ1XuvjzvjT-srDO0E0xGQG6E/preview" 
+    width="640" 
+    height="480" 
+    allow="autoplay" 
+    allowfullscreen>
+</iframe>
     </div>
 
-<script>
-document.addEventListener('DOMContentLoaded', function () {
-    const loginContainer = document.getElementById('loginContainer');
-    const mainContent = document.getElementById('main');
-    const videoSelector = document.getElementById('videoSelector');
-    const video1 = document.getElementById('video1');
-    const video2 = document.getElementById('video2');
+<div class="video" id="video2" style="display: none;">
+                <h1 class="video-title">شرح الفصل الرابع </h1>
+                 <h1 class="video-title">part (1)</h1>
 
-    function showLogin() {
-        loginContainer.style.display = 'block';
-        mainContent.style.display = 'none';
-    }
+<iframe 
+    src="https://drive.google.com/file/d/1TTlJWmBOe5KrDzch5-azinqcpt92TeM8/preview" 
+    width="640" 
+    height="480" 
+    allow="autoplay" 
+    allowfullscreen>
+</iframe>
+                 <h1 class="video-title">part (2)</h1>
 
-    function showMainContent() {
-        loginContainer.style.display = 'none';
-        mainContent.style.display = 'block';
-    }
+<iframe 
+    src="https://drive.google.com/file/d/1zOFLEM1CNFqyllYeg7fm312Oi0vDca4o/preview" 
+    width="640" 
+    height="480" 
+    allow="autoplay" 
+    allowfullscreen>
+</iframe>
+                 <h1 class="video-title">part (3)</h1>
 
-    document.getElementById('loginForm').addEventListener('submit', function (event) {
-        event.preventDefault();
+<iframe 
+    src="https://drive.google.com/file/d/1Q5TCeS5Cdt04svAEtJ52OrVQFgE21X0e/preview" 
+    width="640" 
+    height="480" 
+    allow="autoplay" 
+    allowfullscreen>
+</iframe>
+    </div>
+<div class="video" id="video3" style="display: none;">
+                <h1 class="video-title">تدريبات الفصل الاول</h1>
+                                 <h1 class="video-title">part (1)</h1>
 
-        const username = document.getElementById('username').value.trim();
-        const errorMessage = document.getElementById('errorMessage');
+                <iframe 
+    src="https://drive.google.com/file/d/1un-8-NjBdwYGhJF4t1vxvFc07na-KiJL/preview" 
+    width="640" 
+    height="480" 
+    allow="autoplay" 
+    allowfullscreen>
+</iframe>
+                 <h1 class="video-title">part (2)</h1>
 
-        // List of valid usernames
-        const validUsernames = [
-            '45454', '0', '13227', '66100', '51089', '42877',
-'92584', '81807', '29699', '96915',
-'83933', '15134', '85643', '99949',
-'20995', '39094', '41661', '49757',
-'52293', '65639', '16495', '17290',
-'15417', '84597', '16833', '34244',
-'16228', '57031', '59657', '31693'
+<iframe 
+    src="https://drive.google.com/file/d/1P1vUgpk7NWmvMkHDT3CoMPzLKynP5bZf/preview" 
+    width="640" 
+    height="480" 
+    allow="autoplay" 
+    allowfullscreen>
+</iframe>
+                 <h1 class="video-title">part (3)</h1>
 
-        ];
+<iframe 
+    src="https://drive.google.com/file/d/1lPxniWhIklJwzkg1s4zghxblZAgVizrb/preview" 
+    width="640" 
+    height="480" 
+    allow="autoplay" 
+    allowfullscreen>
+</iframe>
+    </div>
 
-        // Validate username
-        if (validUsernames.includes(username)) {
-            errorMessage.textContent = '';
-            showMainContent();
-        } else {
-            errorMessage.textContent = 'Invalid username';
-        }
-    });
+<div class="video" id="video4" style="display: none;">
+                <h1 class="video-title">تدريبات الفصل الثاني</h1>
+                                 <h1 class="video-title">part (1)</h1>
+<iframe 
+    src="https://drive.google.com/file/d/1HwWrfRx0YTNBkBBRRzCmwdmYCryhkvJF/preview" 
+    width="640" 
+    height="480" 
+    allow="autoplay" 
+    allowfullscreen>
+</iframe>
+                                 <h1 class="video-title">part (2)</h1>
 
-    // Video selection handler
-    videoSelector.addEventListener('change', function() {
-    // Hide all videos initially
-    for (let i = 1; i <= 12; i++) {
-        let video = document.getElementById('video' + i);
-        if (video) {
-            video.style.display = 'none';
-        }
-    }
+<iframe 
+    src="https://drive.google.com/file/d/1B28GGn5O-YVse6VtQzk0aHVsES-4zbKa/preview" 
+    width="640" 
+    height="480" 
+    allow="autoplay" 
+    allowfullscreen>
+</iframe>
+    </div>
 
-    // Show the selected video
-    let selectedVideo = videoSelector.value;
-    let videoToShow = document.getElementById(selectedVideo);
-    if (videoToShow) {
-        videoToShow.style.display = 'block';
-    }
-});
+<div class="video" id="video5" style="display: none;">
+                <h1 class="video-title">تدريبات الفصل الثالث</h1>
+                                 <h1 class="video-title">part (1)</h1>
+<iframe 
+    src="https://drive.google.com/file/d/1_pSdMvY0UKJ23Vv-aye9-aAyr3aYV0BX/preview" 
+    width="640" 
+    height="480" 
+    allow="autoplay" 
+    allowfullscreen>
+</iframe>
+                                 <h1 class="video-title">part (2)</h1>
 
+<iframe 
+    src="https://drive.google.com/file/d/19vgZBaNM1gkjHCRwKVHiRX3us9IphDy-/preview" 
+    width="640" 
+    height="480" 
+    allow="autoplay" 
+    allowfullscreen>
+</iframe>
+    </div>
 
-    showLogin();
-});
-</script>
+<div class="video" id="video6" style="display: none;">
+                <h1 class="video-title">تدريبات الفصل الرابع</h1>
+                                 <h1 class="video-title">part (1)</h1>
+<iframe 
+    src="https://drive.google.com/file/d/14o9Y0DRinHZe0AJ-QOr0ACtQcTuDDM1_/preview" 
+    width="640" 
+    height="480" 
+    allow="autoplay" 
+    allowfullscreen>
+</iframe>
+                                 <h1 class="video-title">part (2)</h1>
+
+<iframe 
+    src="https://drive.google.com/file/d/1lXffint_g9wgofI4gc5nO7ID0u4dEvNp/preview" 
+    width="640" 
+    height="480" 
+    allow="autoplay" 
+    allowfullscreen>
+</iframe>
+      </div>
+                    `;
+                }
+
+                videoContainer.innerHTML = videoHTML;
+
+                const videoSelector = document.getElementById('videoSelector');
+                if (videoSelector) {
+                    videoSelector.addEventListener('change', function () {
+                        const selectedVideo = videoSelector.value;
+                        const videos = document.querySelectorAll('.video');
+                        videos.forEach(video => video.style.display = 'none');
+                        const videoToShow = document.getElementById(selectedVideo);
+                        if (videoToShow) {
+                            videoToShow.style.display = 'block';
+                        }
+                    });
+                }
+            }
+
+            document.getElementById('loginForm').addEventListener('submit', function (event) {
+                event.preventDefault();
+
+                const username = document.getElementById('username').value.trim();
+                const errorMessage = document.getElementById('errorMessage');
+
+                const validUsernames = {
+                    'CODE1': ['45454', '0', '18234', '19543', '52614', '51367', '74659', '76431', '63824', '72904', '52918', '84957', '71945', '83629', '38241', '47285', '29067', '94185', '90576', '35926', '83415', '47623', '63172', '81023', '67892', '85297', '24785', '74381', '90283', '19473'],
+                    
+                    'CODE2': ['45454', '0', '13227', '66100', '51089', '42877', '92584', '81807', '29699', '96915', '83933', '15134', '85643', '99949', '20995', '39094', '41661', '49757', '52293', '65639', '16495', '17290', '15417', '84597', '16833', '34244', '16228', '57031', '59657', '31693'],
+                    
+                    'CODE3': ['0', '85800', '64622', '48007', '45427', '93111', '99452', '60560', '56689', '13885', '30329', '12103', '18638', '35358', '79862', '40574', '22080', '93577', '75673', '66981', '20482', '62787', '96462', '31451', '89339', '12833', '81447', '96579', '31230']
+                };
+
+                let code = '';
+                for (const [key, values] of Object.entries(validUsernames)) {
+                    if (values.includes(username)) {
+                        code = key;
+                        break;
+                    }
+                }
+
+                if (code) {
+                    errorMessage.textContent = '';
+                    loadVideoContent(code);
+                    showMainContent();
+                } else {
+                    errorMessage.textContent = 'Invalid username';
+                }
+            });
+
+            showLogin();
+        });
+    </script>
