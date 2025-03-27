@@ -623,7 +623,7 @@
                             <option value="video4">تدريبات الفصل الخامس</option>
                             <option value="video5">شرح الفصل السادس part.1</option>
                             <option value="video6">شرح الفصل السادس part.2</option>
-                            <option value="video6">تدريبات الفصل السادس</option>
+                            <option value="video7">تدريبات الفصل السادس</option>
                         </select>
                                    
 <div class="video" id="video1" style="display: none;">
