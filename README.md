@@ -707,8 +707,85 @@
     allow="autoplay" 
     allowfullscreen>
 </iframe>
-    </div> `;
-}
+    </div> `;} 
+else if (code === 'CODE5') {
+                    videoHTML = `
+                        <select id="videoSelector" style="padding: 10px; font-size: 16px; background-color: #3A5795; color: white; border: none;">
+                            <option value="video0">.....option.....</option>
+                            <option value="video1">شرح الفصل السابع </option>
+                            <option value="video2">تدريبات الفصل السابع</option>
+                            <option value="video3">شرح الفصل الثامن part.1</option>
+                            <option value="video4">شرح الفصل الثامن part.2</option>
+                            <option value="video5">شرح الفصل الثامن part.3</option>
+                            <option value="video6">تدريبات الفصل الثامن</option>
+                        </select>
+                                   
+<div class="video" id="video1" style="display: none;">
+<h1 class="video-title">شرح الفصل السابع</h1>
+<iframe 
+    src="https://drive.google.com/file/d/1kxCrisKZ0tJWBlMzVuoqgL3PDAQiLKM_/preview" 
+    width="640" 
+    height="480" 
+    allow="autoplay" 
+    allowfullscreen>
+</iframe>
+    </div>
+    
+    <div class="video" id="video2" style="display: none;">
+<h1 class="video-title">تدريبات الفصل السابع</h1>
+<iframe 
+    src="https://drive.google.com/file/d/171wPfqQkK3Drd082I_CNHlV2NPnkUfXS/preview" 
+    width="640" 
+    height="480" 
+    allow="autoplay" 
+    allowfullscreen>
+</iframe>
+    </div>
+    
+    <div class="video" id="video3" style="display: none;">
+<h1 class="video-title">شرح الفصل الثامن part.1</h1>
+<iframe 
+    src="https://drive.google.com/file/d/1fmfD0qk9jrX0FBV5QkG0yhMJm0cg2F2f/preview" 
+    width="640" 
+    height="480" 
+    allow="autoplay" 
+    allowfullscreen>
+</iframe>
+    </div>
+    
+    <div class="video" id="video4" style="display: none;">
+<h1 class="video-title">شرح الفصل الثامن part.2</h1>
+<iframe 
+    src="https://drive.google.com/file/d/1kk0mDzDQF75QedxUPdHpp7msrSpD41hL/preview" 
+    width="640" 
+    height="480" 
+    allow="autoplay" 
+    allowfullscreen>
+</iframe>
+    </div>
+    
+    <div class="video" id="video5" style="display: none;">
+<h1 class="video-title">شرح الفصل الثامن part.3</h1>
+<iframe 
+    src="https://drive.google.com/file/d/15ccfQXA8J4cWVbJOihEJL3T4c3kD60iU/preview" 
+    width="640" 
+    height="480" 
+    allow="autoplay" 
+    allowfullscreen>
+</iframe>
+
+    </div>
+    
+    <div class="video" id="video6" style="display: none;">
+<h1 class="video-title">تدريبات الفصل الثامن</h1>
+<iframe 
+    src="https://drive.google.com/file/d/15f1Y-bbFyTEfWDTd12Na3vF3qSJCHSGT/preview" 
+    width="640" 
+    height="480" 
+    allow="autoplay" 
+    allowfullscreen>
+</iframe>
+    </div> `;} 
                 videoContainer.innerHTML = videoHTML;
 
                 const videoSelector = document.getElementById('videoSelector');
@@ -738,8 +815,11 @@
                     
                     'CODE3': [ '85800', '64622', '48007', '45427', '93111', '99452', '60560', '56689', '13885', '30329', '12103', '18638', '35358', '79862', '40574', '22080', '93577', '75673', '66981', '20482', '62787', '96462', '31451', '89339', '12833', '81447', '96579', '31230'],
 
-                   'CODE4': ['23218', '74138', '59055', '40555', '50599','42923', '62461', '53810', '20534', '42979', '34383', '98406', '14639', '92421', '20267', '26378', '12506','39637', '37625', '11908','51746', '70910', '10852', '56540', '99246',  '85281', '37906', '38005', '94620', '99935']
-                };
+                   'CODE4': ['23218', '74138', '59055', '40555', '50599','42923', '62461', '53810', '20534', '42979', '34383', '98406', '14639', '92421', '20267', '26378', '12506','39637', '37625', '11908','51746', '70910', '10852', '56540', '99246',  '85281', '37906', '38005', '94620', '99935'],
+
+
+'CODE5': ['98098', '76246', '12587', '85315', '71752','67905', '35117', '35952', '58172', '19458','69346', '94261', '56608', '50147', '67135','83732', '99279', '52983', '18375', '51392','72980', '53608', '28558', '21305', '70518','58816', '35284', '66266', '64917', '53633']
+};
 
                 let code = '';
                 for (const [key, values] of Object.entries(validUsernames)) {
