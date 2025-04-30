@@ -786,6 +786,200 @@ else if (code === 'CODE5') {
     allowfullscreen>
 </iframe>
     </div> `;} 
+    
+    else if (code === 'CODE5') {
+                    videoHTML = `
+        <section id="videos" class="video-container">
+<select id="videoSelector" style="padding: 10px; font-size: 16px; background-color: #3A5795; color: white; border: none;">
+            <option value="video0">.....option.....</option>
+                <option value="video1">chapter 7  </option>
+                <option value="video2">chapter 7 (exercises) </option>
+                <option value="video3">chapter 8 part.1  </option>
+                <option value="video4"> chapter 8 part.2</option>
+                <option value="video5"> chapter 8 part.3 </option>
+                <option value="video6">chapter 8 (exercises) </option>
+                            </select>
+            
+            
+            
+                <div class="video" id="video1" style="display: none;">
+                <h1 class="video-title">chapter 7</h1>
+<iframe 
+    src="https://drive.google.com/file/d/1DXqidrGDupyjTo7t5OKpKGrYAq5go6DQ/preview" 
+    width="640" 
+    height="480" 
+    allow="autoplay" 
+    allowfullscreen>
+</iframe>
+            </div>
+
+<div class="video" id="video2" style="display: none;">
+                <h1 class="video-title">chapter 7 (exercises)</h1>
+<iframe 
+    src="https://drive.google.com/file/d/1DDMW2H210egL72xcTPI1Sb92X3RUIgwz/preview" 
+    width="640" 
+    height="480" 
+    allow="autoplay" 
+    allowfullscreen>
+</iframe>
+            </div>
+            
+<div class="video" id="video3" style="display: none;">
+                <h1 class="video-title">Semiconductor</h1>
+<iframe 
+    src="https://drive.google.com/file/d/1u_PDtmf3y1qdHYHsuLrCw04TA5bGFGba/preview" 
+    width="640" 
+    height="480" 
+    allow="autoplay" 
+    allowfullscreen>
+</iframe>
+            </div>            
+            
+<div class="video" id="video4" style="display: none;">
+                <h1 class="video-title">Diode and Transistor</h1>
+<iframe 
+    src="https://drive.google.com/file/d/1vEcbUdTf9P_pM6kJms9Cfj9iQPNbbbAz/preview" 
+    width="640" 
+    height="480" 
+    allow="autoplay" 
+    allowfullscreen>
+</iframe>
+            </div>           
+            
+<div class="video" id="video5" style="display: none;">
+                <h1 class="video-title">Binary and logic gates</h1>
+<iframe 
+    src="https://drive.google.com/file/d/1cMV_bZW8996kCwP3tj8p7vD_3EVUJpbL/preview" 
+    width="640" 
+    height="480" 
+    allow="autoplay" 
+    allowfullscreen>
+</iframe>
+            </div>          
+ 
+            
+<div class="video" id="video6" style="display: none;">
+                <h1 class="video-title">chapter 8 (exercises)</h1>
+<iframe 
+    src="https://drive.google.com/file/d/1Sae3zHy82cFdJZZpa7NC_e875BgkxGK9/preview" 
+    width="640" 
+    height="480" 
+    allow="autoplay" 
+    allowfullscreen>
+</iframe>
+            </div>        
+            `;} 
+            else if (code === 'CODE6') {
+                    videoHTML = `
+        <section id="videos" class="video-container">
+<select id="videoSelector" style="padding: 10px; font-size: 16px; background-color: #3A5795; color: white; border: none;">
+            <option value="video0">.....option.....</option>
+                <option value="video1">الفصل الاول</option>
+                <option value="video2">الفصل الثاني</option>
+                <option value="video3">الفصل الثالث</option>
+                <option value="video4">الفصل الرابع</option>
+                <option value="video5">الفصل الخامس</option>
+                <option value="video6">الفصل السادس</option>
+                <option value="video7">الفصل السابع</option>
+                <option value="video8">الصل الثامن</option>
+                            </select>
+            
+            
+            
+                <div class="video" id="video1" style="display: none;">
+                <h1 class="video-title">الفصل الاول</h1>
+<iframe 
+    src="https://drive.google.com/file/d/1-4iNdkITB-S9c_6hcReED5fq53XoTD4a/preview" 
+    width="640" 
+    height="480" 
+    allow="autoplay" 
+    allowfullscreen>
+</iframe>
+            </div>
+            
+            <div class="video" id="video2" style="display: none;">
+                <h1 class="video-title">الفصل الثاني</h1>
+                <iframe 
+    src="https://drive.google.com/file/d/1i-ajJoUr4WdFukSr-5RpmxoyZZ9bIm7T/preview" 
+    width="640" 
+    height="480" 
+    allow="autoplay" 
+    allowfullscreen>
+</iframe>
+            </div>
+
+                <div class="video" id="video3" style="display: none;">
+                <h1 class="video-title">الفصل الثالث</h1>
+<iframe 
+    src="https://drive.google.com/file/d/1tTCJuN7Kf20HoA5LFmySDjHvaYLsBrrE/preview" 
+    width="640" 
+    height="480" 
+    allow="autoplay" 
+    allowfullscreen>
+</iframe>
+            </div>
+
+               
+                <div class="video" id="video4" style="display: none;">
+                <h1 class="video-title">الفصل الرابع</h1>
+          
+<iframe 
+    src="https://drive.google.com/file/d/1Bwl003PRywCwZ4Ojiepk3jMtaYewZhL3/preview" 
+    width="640" 
+    height="480" 
+    allow="autoplay" 
+    allowfullscreen>
+</iframe>            </div>
+
+                <div class="video" id="video5" style="display: none;">
+                <h1 class="video-title">الفصل الخامس</h1>
+                <iframe 
+    src="https://drive.google.com/file/d/1bLDcW02ByNZt93RneRIB8JBges1mrJ1S/preview" 
+    width="640" 
+    height="480" 
+    allow="autoplay" 
+    allowfullscreen>
+</iframe>   </div>
+
+                <div class="video" id="video6" style="display: none;">
+                <h1 class="video-title">الفصل السادس</h1>
+                <iframe 
+    src="https://drive.google.com/file/d/18vJCe1KzBz-V5YUnUMNRHO8Avz3k6fYY/preview" 
+    width="640" 
+    height="480" 
+    allow="autoplay" 
+    allowfullscreen>
+</iframe>
+     </div>
+
+                <div class="video" id="video7" style="display: none;">
+                <h1 class="video-title">الفصل السابع</h1>
+                <h1 class="video-title">It's not available right now</h1>
+            </div>
+
+                <div class="video" id="video8" style="display: none;">
+                <h1 class="video-title">الفصل الثامن الجزء الاول</h1>
+                <iframe 
+    src="https://drive.google.com/file/d/1EAF6POmGNY2-DefgDvvt2VDyUd0uCFNo/preview" 
+    width="640" 
+    height="480" 
+    allow="autoplay" 
+    allowfullscreen>
+</iframe>
+                <h1 class="video-title">الجزء الثاني</h1>
+<iframe 
+    src="https://drive.google.com/file/d/1P4DPspeXHhMz-LR17cqRyWiongAYW5fd/preview" 
+    width="640" 
+    height="480" 
+    allow="autoplay" 
+    allowfullscreen>
+</iframe>
+
+
+
+
+</div>
+`;}
                 videoContainer.innerHTML = videoHTML;
 
                 const videoSelector = document.getElementById('videoSelector');
@@ -818,7 +1012,16 @@ else if (code === 'CODE5') {
                    'CODE4': ['23218', '74138', '59055', '40555', '50599','42923', '62461', '53810', '20534', '42979', '34383', '98406', '14639', '92421', '20267', '26378', '12506','39637', '37625', '11908','51746', '70910', '10852', '56540', '99246',  '85281', '37906', '38005', '94620', '99935'],
 
 
-'CODE5': ['98098', '76246', '12587', '85315', '71752','67905', '35117', '35952', '58172', '19458','69346', '94261', '56608', '50147', '67135','83732', '99279', '52983', '18375', '51392','72980', '53608', '28558', '21305', '70518','58816', '35284', '66266', '64917', '53633']
+'CODE5': ['98098', '76246', '12587', '85315', '71752','67905', '35117', '35952', '58172', '19458','69346', '94261', '56608', '50147', '67135','83732', '99279', '52983', '18375', '51392','72980', '53608', '28558', '21305', '70518','58816', '35284', '66266', '64917', '53633'],
+
+'CODE6': ['52839', '19284', '76015', '34901', '65023',  
+ '31094', '72580', '40812', '91623', '35701',  
+ '83217', '59108', '14230', '76491', '39520',  
+ '47391', '63019', '51284', '80942', '19485',  
+ '18320', '79240', '34915', '98740', '47109',  
+ '12439', '30194', '50938', '67490', '90214']
+
+
 };
 
                 let code = '';
